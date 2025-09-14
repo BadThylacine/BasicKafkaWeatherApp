@@ -1,19 +1,3 @@
-//package consumer;
-//
-//import org.springframework.kafka.annotation.KafkaListener;
-//import org.springframework.stereotype.Service;
-//
-//@Service
-//public class WeatherConsumer {
-//
-//    @KafkaListener(topics = "weather", groupId = "weather-group")
-//    public void consume(String message) {
-//        System.out.println("📥 Received weather data: " + message);
-//    }
-//}
-
-
-
 package consumer;
 
 import model.WeatherData;
